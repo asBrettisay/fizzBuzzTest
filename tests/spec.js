@@ -10,7 +10,7 @@ describe('fizzBuzz', function() {
 
   it('should call console.log the correct number of times', function() {
     fizzBuzz();
-    expect(console.log.calls.count()).toEqual(99);
+    expect(console.log.calls.count()).toEqual(100);
   })
 
   it('should work correctly', function() {
